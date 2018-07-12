@@ -27,11 +27,11 @@ M_hotspot (input, total_prop, compare_hotspot, patient_density, hotspot_density,
 
 input: The table with the somatic mutation amino acid position.  
   columns definition：(fixed header names)  
-      V1: ENSEMBL ID, GNSP.
-      V2: Amino acid position of somatic mutation.
-      V3: TCGA patient's S_ID.
-      V4: Gene symbol.
-      V5: Cancer type.
+      V1: ENSEMBL ID, GNSP.<br>
+      V2: Amino acid position of somatic mutation.<br>
+      V3: TCGA patient's S_ID.<br>
+      V4: Gene symbol.<br>
+      V5: Cancer type.<br>
 
 total_prop: Numeric.one of the condition filters. Number of the hotspot mutations > number of gene mutations 5%.<br>
 compare_hotspot: Numeric.one of the condition filters. the hotspot with No. mutations > 20% mutations of the strongest hotspot.<br>
