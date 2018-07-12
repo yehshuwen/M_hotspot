@@ -26,9 +26,7 @@ M_hotspot (input, total_prop, compare_hotspot, patient_density, hotspot_density,
 ##### Arguments
 
 input: The table with the somatic mutation amino acid position.  
-
   columns definition：(fixed header names)  
-
       V1: ENSEMBL ID, GNSP.
       V2: Amino acid position of somatic mutation.
       V3: TCGA patient's S_ID.
@@ -52,6 +50,5 @@ filter_output: Hotspots filter details output path.<br>
 
 Value (Output)
 
-Images, save as pdf file.  
-
-Character, save as txt file.
+  Images, save as pdf file.  
+  Character, save as txt file.
