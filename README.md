@@ -50,5 +50,5 @@ filter_output: Hotspots filter details output path.<br>
 
 ##### Value (Output)
 
-  Images, save as pdf file.
-  Character, save as txt file.
+  Images, save as pdf file.<br>
+  Character, save as txt file.<br>
