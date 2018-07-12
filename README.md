@@ -1,12 +1,12 @@
 # M_hotspot
 
-## author: swyeh
+### author: swyeh
 
-## date: 20180708
+### date: 20180708
 
-## R. version: R version 3.4.2 (2017-09-28)
+### R. version: R version 3.4.2 (2017-09-28)
 
-## used packages: grid, ggplot2, ggrepel, shape, e1071, plotrix, plyr
+### used packages: grid, ggplot2, ggrepel, shape, e1071, plotrix, plyr
 
 
 
@@ -14,16 +14,16 @@ M_hotspot {swyeh defined}
 
 
 
-The core function of M-hotspot
+## The core function of M-hotspot
 
 Descritpion
 User can find gene mutation hotspot with M-hotspot function.
 
 Usage<br>
-```
+```{R}
 M_hotspot (input, total_prop, compare_hotspot, patient_density, hotspot_density, alph1, beta,peak_region_min, peak_region_max, remain_gap, num_center, outputpdf,file_output, filter_output)
 ```
-#####Arguments
+##### Arguments
 
 input: The table with the somatic mutation amino acid position.
       columns definition：(fixed header names)
@@ -48,7 +48,7 @@ output_pdf: Images output path.<br>
 file_output: Hotspots details output path.<br>
 filter_output: Hotspots filter details output path.<br>
 
-######Value (Output)
+Value (Output)
 
 Images, save as pdf file.
 Character, save as txt file.
