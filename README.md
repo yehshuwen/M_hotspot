@@ -34,7 +34,7 @@ input: The table with the somatic mutation amino acid position.
       V5: Cancer type.<br>
 
 total_prop: Numeric.one of the condition filters. Number of the hotspot mutations > number of gene mutations 5%.<br>
-compare_hotspot: Numeric.one of the condition filters. the hotspot with No. mutations > 20% mutations of the strongest hotspot.<br>
+compare_hotspot: Numeric.one of the condition filters. The hotspot with No. mutations > 20% mutations of the strongest hotspot.<br>
 patient_density: Numeric. one of the condition filters. The hotspot density per hundred people > 10%.<br>
 hotspot_density:Numeric.one of the condition filters. The hotspot density > 2 (each hotspot mutations / each hotspot length).<br>
 alph1: Numeric. Parameter of density function. Default is 2.5<br>
@@ -48,7 +48,7 @@ output_pdf: Images output path.<br>
 file_output: Hotspots details output path.<br>
 filter_output: Hotspots filter details output path.<br>
 
-Value (Output)
+##### Value (Output)
 
-  Images, save as pdf file.  
+  Images, save as pdf file.
   Character, save as txt file.
